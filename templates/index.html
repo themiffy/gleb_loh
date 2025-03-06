@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Глеб Лох™ Официальный сайт</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Официальный портал подтверждения лоховости Глеба</h1>
+
+    <section class="facts">
+        <h2>Факты о Глебе:</h2>
+        <ul>
+            <li>🤢 Воняет как перебродивший самогон</li>
+            <li>🤡 Последний раз мылся, когда Машкунов открыл коэффициент</li>
+            <li>💩 Его любимый парфюм - аромат неудачного похмелья</li>
+            <li>🧠 IQ равен крепости безалкогольного пива</li>
+        </ul>
+    </section>
+
+    <section class="calculator">
+        <h2>Калькулятор коэффициента Кузьмина-Машкунова</h2>
+        <div class="calc-form">
+            <input type="number" id="volume" placeholder="Объем (мл)">
+            <input type="number" id="abv" placeholder="Крепость (%)" step="0.1">
+            <input type="number" id="price" placeholder="Цена (руб)">
+            <button onclick="calculate()">Рассчитать выгодность</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <section class="messages">
+        <h2>Оставьте свидетельства о лоховости Глеба</h2>
+        <form id="messageForm">
+            <input type="text" id="name" placeholder="Ваше имя" required>
+            <textarea id="message" placeholder="Ваше сообщение" required></textarea>
+            <button type="submit">Отправить в архив лоховства</button>
+        </form>
+    </section>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

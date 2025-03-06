@@ -1,0 +1,12 @@
+2025-03-06 09:26:04,772 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 09:26:04,773 - [33mPress CTRL+C to quit[0m
+2025-03-06 09:26:04,773 -  * Restarting with stat
+2025-03-06 09:26:04,930 -  * Debugger is active!
+2025-03-06 09:26:04,940 -  * Debugger PIN: 963-589-040
+2025-03-06 09:27:16,082 - 127.0.0.1 - - [06/Mar/2025 09:27:16] "GET / HTTP/1.1" 200 -
+2025-03-06 09:27:16,120 - 127.0.0.1 - - [06/Mar/2025 09:27:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-06 09:27:16,120 - 127.0.0.1 - - [06/Mar/2025 09:27:16] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-06 09:27:16,254 - 127.0.0.1 - - [06/Mar/2025 09:27:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-06 09:28:02,133 - Сообщение от Миша: Я считаю что Глеб лох
+2025-03-06 09:28:02,135 - 127.0.0.1 - - [06/Mar/2025 09:28:02] "POST /log_message HTTP/1.1" 200 -

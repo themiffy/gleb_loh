@@ -1,0 +1,58 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffe6e6;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #ff4444;
+}
+
+.facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.facts li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #fff0f0;
+    border-radius: 10px;
+}
+
+.calc-form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 2px solid #ff4444;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff4444;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #cc0000;
+}
+
+#result {
+    font-weight: bold;
+    color: #ff4444;
+    font-size: 1.2em;
+}
