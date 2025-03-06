@@ -56,3 +56,53 @@ button:hover {
     color: #ff4444;
     font-size: 1.2em;
 }
+
+/* Добавить в style.css */
+.messages-form {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 2fr;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .messages-form {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Анимации */
+@keyframes loh-rotation {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    75% { transform: rotate(-3deg); }
+    100% { transform: rotate(0deg); }
+}
+
+h1 {
+    animation: loh-rotation 0.5s infinite;
+}
+
+/* Дополнительные приколюхи */
+::selection {
+    background: #ff4444;
+    color: white;
+}
+
+.facts li:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+#result {
+    font-size: 2em;
+    text-shadow: 2px 2px #ff0000;
+}
