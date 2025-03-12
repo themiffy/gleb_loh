@@ -31,6 +31,7 @@
         <p class="hint">💡 Совет: чем больше коэффициент - тем сильнее Глеб воняет!</p>
 
         <div class="calc-form">
+            <input type="text" id="bev_name" placeholder="Название напитка" required>
             <input type="number" id="volume" placeholder="Объем (мл)">
             <input type="number" id="abv" placeholder="Крепость (%)" step="0.1">
             <input type="number" id="price" placeholder="Цена (руб)">
@@ -48,6 +49,23 @@
                       title="Опишите во всех подробностях... но не вдыхайте глубоко!"></textarea>
             <button type="submit">Отправить в архив лоховства</button>
 
+            <div class="history-table">
+                <h3>🏆 Рейтинг вонючести:</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Цена</th>
+                        <th>Объём</th>
+                        <th>Крепость</th>
+                        <th>Коэффициент</th>
+                    </tr>
+                    </thead>
+                    <tbody id="historyBody">
+                    <!-- Данные будут здесь -->
+                    </tbody>
+                </table>
+            </div>
 
         </form>
     </section>

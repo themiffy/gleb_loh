@@ -106,3 +106,24 @@ h1 {
     font-size: 2em;
     text-shadow: 2px 2px #ff0000;
 }
+
+.history-table {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ff4444;
+}
+
+tr:hover {
+    background-color: #fff0f0;
+}
