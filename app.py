@@ -6,7 +6,7 @@ from pathlib import Path
 import json
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/gleb-loh/static')
 
 HISTORY_FILE = Path("calculations_history.json")
 # Создаём файл истории если его нет
